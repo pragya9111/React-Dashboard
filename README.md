@@ -2,8 +2,6 @@
 
 A modern analytics dashboard built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. This project demonstrates a modular, scalable approach to business intelligence dashboards, featuring interactive charts, tables, dark mode, and real-time data fetching.
 
----
-
 ## Features
 
 - **Interactive Charts**: Line, Area, Bar, Pie, and Donut charts powered by [Highcharts](https://www.highcharts.com/).
@@ -14,8 +12,6 @@ A modern analytics dashboard built with **React**, **TypeScript**, **Vite**, and
 - **Modern Tooling**: Fast development with Vite, TypeScript, and Tailwind CSS.
 - **ESLint**: Strict linting with recommended and type-aware rules.
 
----
-
 ## Tech Stack
 
 - **React 19** + **TypeScript**
@@ -25,8 +21,6 @@ A modern analytics dashboard built with **React**, **TypeScript**, **Vite**, and
 - **@tanstack/react-query** (data fetching/caching)
 - **axios** (HTTP client)
 - **ESLint** (linting)
-
----
 
 ## Folder Structure
 
@@ -66,8 +60,6 @@ A modern analytics dashboard built with **React**, **TypeScript**, **Vite**, and
 └── README.md
 ```
 
----
-
 ## Getting Started
 
 1. **Install dependencies:**
@@ -80,7 +72,9 @@ A modern analytics dashboard built with **React**, **TypeScript**, **Vite**, and
    npm run dev
    ```
 
----
+## Live Preview
+
+Check out the live version of the project! [View Live Demo](https://react-dashboard-sigma-seven.vercel.app/).
 
 ## Main Functionalities
 
@@ -89,8 +83,6 @@ A modern analytics dashboard built with **React**, **TypeScript**, **Vite**, and
 - **Charts**: Each chart type is a reusable component, styled for both themes.
 - **Data Fetching**: Uses mock data via async functions, easily replaceable with real API endpoints.
 - **Error & Loading States**: Each widget handles loading and error states gracefully.
-
----
 
 ## Credits
 
